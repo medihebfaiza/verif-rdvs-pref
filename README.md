@@ -11,7 +11,7 @@ Requires `Python 3`.
 pip install -r requirements.txt
 ```
 2. Download the chrome driver corresponding to your chrome version : https://chromedriver.chromium.org/downloads
-3. Save the path to the chrome driver in a `chrome_driver.txt` file.
+3. Save the path to the chrome driver executable in a `chrome_driver.txt` file.
 
 # ⚙️ Configuration
 1. Run :
