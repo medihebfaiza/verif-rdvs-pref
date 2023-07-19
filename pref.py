@@ -32,9 +32,6 @@ while True:
   bypass502(driver)
   if driver.find_elements_by_name("finishButton") :
     driver.find_element_by_name("finishButton").click()
-    sleep(check_every * 60)
+    sleep(check_every * 300)
   else:
     requests.post(notify_endpoint, {'message': 'Des RDVs sont disponibles sur le site de la préfecture', 'action': None})
-
-
-
