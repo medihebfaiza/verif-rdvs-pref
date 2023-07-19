@@ -25,7 +25,6 @@ requests.post(notify_endpoint, {'message': 'La vérification des RDVs est lancé
 driver = webdriver.Chrome(chrome_driver)
 driver.get(pref_url)
 bypass502(driver)
-driver.find_element_by_link_text("Accepter").click()
 while True:
   bypass502(driver)
   driver.find_element_by_name("condition").click()
